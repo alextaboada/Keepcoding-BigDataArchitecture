@@ -21,6 +21,7 @@ La salida de todo este proceso serán dos páginas en la propia web:
 
 ## Arquitectura DAaas
 
+ - Fuente de datos: Ecommerce del cliente, que estará construido con un CMS específico para ventas(Prestashop, Woocommerce, Magento, Shopify). En el caso de 
  - Sitio web (realizado con el framework laravel), para lo cual necesitaremos una VM con Linux en el que instalaremos un servidor web junto con el framework
  - Base de datos Google SQL
  - Crawlers para sacar las url de la competencias y la API de la tienda origen(functions de Google)
