@@ -24,13 +24,30 @@ La salida de todo este proceso serán dos páginas en la propia web:
  - Sitio web (realizado con el framework laravel), para lo cual necesitaremos una VM con Linux en el que instalaremos un servidor web junto con el framework
  - Base de datos Google SQL
  - Crawlers para sacar las url de la competencias y la API de la tienda origen(functions de Google)
+   - Librería Requests para leer de la API
+   - Librería psycopg2 para guardar los datos en la base de datos
  - Scrapping para sacar los precios(functions de google)
+   - Librería Scrappy para sacar los datos de las diferentes webs
+   - Librería psycopg2 para guardar datos en la base de datos
  - Scheduler  para forzar el scrapping cada 24 horas
 
 ## DAaaS Operating Model Design
 
-Para leer la api del ecommerce, usaremos un crawler de Python(function). Esto nos dará todos los productos de la tienda y en la propia web seleccionaremos aquellos productos de los que queramos hacer el seguimiento y los guardaremos en una base de datos relacional Google SQL.
+Para leer la API del ecommerce, usaremos un crawler de Python(function). Esto nos dará todos los productos de la tienda y en la propia web el cliente podrá seleccionar todos los productos para los cuales queremos hacer un seguimiento y los guardaremos en una base de datos relacional Google SQL.
 
-El siguiente paso es sacar la url de cada producto en cada una de las páginas de la competencia. Para ellos, usaremos otro crawler de Python al que pasaremos la referencia del producto y nos devolverá la URL en cada web de la competencia. De esta manera tendremos siempre la url para poder solicitar los precios de manera más eficiente.
+El siguiente paso es sacar la url de cada producto en cada una de las páginas de la competencia. Para ellos, usaremos otro crawler de Python al que pasaremos la referencia del producto y nos devolverá la URL en cada web de la competencia. De esta manera tendremos siempre la url para poder solicitar los precios de manera más eficiente. En caso de que no sea posible conseguir la url del producto (existen webs que no muestran la referencia o bien tienen referencias internas), el cliente podrá introducir esos valores manualmente.
 
-Por último, una vez al día, cada scrapper asociado a cada tienda de la competencia recibirá las urls de cada producto en la competencia y devolverá el precio, guardándolo en la base de datos, asociado a la fecha y al producto original.
+Una vez al día, el schedueler forzará a cada scrapper asociado a cada tienda de la competencia a recuperar los productos de esa tienda junto con su producto principal asociado, buscar el precio para ese día para cada producto y guardar los valores de precio de esa competencia, producto original y fecha en la base de datos.
+
+Por último, el cliente, en el momento que lo desee, podrá consultar los productos en su dashboard, de dos maneras:
+- Por un lado, a través de una tabla donde podrá ver todos los productos con el precio en su propia tienda, junto con los precios en las tiendas de la competencia seleccionadas y un % de diferencia de precio entre su precio y el de la competencia. 
+![Ver imagen de reporte de tabla](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/salida_tabla.png)
+
+- Si desea una visión histórica de los precios, al entrar en cada uno de los productos, verá una página con los precios actuales, tanto de su tienda como de la competencia junto con un gráfico de líneas con el valor del precio de la competencia a lo largo del tiempo.
+![Ver imagen de reporte detallado](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/salida_tabla.png)
+
+## Esquema DAaas
+
+[Esquema en formato draw.io](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/esquema.drawio)
+
+![Esquema](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/esquema.png) 
