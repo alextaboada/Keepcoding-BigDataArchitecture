@@ -1,45 +1,52 @@
-<mxfile host="Electron" modified="2023-10-20T20:45:54.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="1eXjTEptUwcehMOkR8nK" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-10-22T18:34:14.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="zqJaYAwMEkUR0AgcE07D" version="22.0.3" type="device">
   <diagram name="Página-1" id="DVw4yjSmaIVq2_H0Iuo1">
     <mxGraphModel dx="2058" dy="3518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XEwDiKF5mE0LJLEEQ2nE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endSize=16;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="XEwDiKF5mE0LJLEEQ2nE-1" target="XEwDiKF5mE0LJLEEQ2nE-4" edge="1">
+        <mxCell id="mcHT1eDRT5HfpCZdhRrw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endSize=16;" edge="1" parent="1" source="XEwDiKF5mE0LJLEEQ2nE-1" target="XEwDiKF5mE0LJLEEQ2nE-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="85" y="-550" />
+              <mxPoint x="380" y="-670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcHT1eDRT5HfpCZdhRrw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endSize=16;" edge="1" parent="1" source="XEwDiKF5mE0LJLEEQ2nE-1" target="XEwDiKF5mE0LJLEEQ2nE-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="-670" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="70" y="-580" width="30" height="60" as="geometry" />
+          <mxGeometry x="70" y="-700" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-2" value="&lt;font color=&quot;#ffffff&quot;&gt;LARAVEL APP&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startSize=90;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;gradientColor=none;swimlaneFillColor=none;perimeterSpacing=6;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="200" y="-800" width="840" height="705" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-3" value="SELECCIÓN DE PRODUCTOS" style="swimlane;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startSize=40;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="XEwDiKF5mE0LJLEEQ2nE-2" vertex="1">
-          <mxGeometry x="40" y="120" width="280" height="550" as="geometry" />
+          <mxGeometry x="40" y="160" width="280" height="510" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endSize=16;" parent="XEwDiKF5mE0LJLEEQ2nE-3" source="XEwDiKF5mE0LJLEEQ2nE-4" target="XEwDiKF5mE0LJLEEQ2nE-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-4" value="Introducir API de ecommerce y recuperar productos" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="XEwDiKF5mE0LJLEEQ2nE-3" vertex="1">
-          <mxGeometry x="20" y="70" width="230" height="110" as="geometry" />
+          <mxGeometry x="20" y="60" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-9" value="Seleccionar productos y guardarlos en la BD" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="XEwDiKF5mE0LJLEEQ2nE-3" vertex="1">
-          <mxGeometry x="20" y="230" width="230" height="130" as="geometry" />
+          <mxGeometry x="20" y="220" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-14" value="Usamos los crawlers de las competencias para sacar URL" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="XEwDiKF5mE0LJLEEQ2nE-3" vertex="1">
-          <mxGeometry x="20" y="400" width="230" height="120" as="geometry" />
+          <mxGeometry x="20" y="380" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-48" value="PRESENTACIÓN DE INFORMACIÓN" style="swimlane;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;startSize=40;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;swimlaneFillColor=none;" parent="XEwDiKF5mE0LJLEEQ2nE-2" vertex="1">
-          <mxGeometry x="440" y="120" width="356" height="550" as="geometry" />
+          <mxGeometry x="440" y="160" width="356" height="510" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-49" value="Tabla con los productos y los precios actuales de propios y de la competencia" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="XEwDiKF5mE0LJLEEQ2nE-48" vertex="1">
-          <mxGeometry x="26" y="90" width="304" height="160" as="geometry" />
+          <mxGeometry x="26" y="60" width="304" height="160" as="geometry" />
         </mxCell>
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-51" value="Para un producto particular, precio actual en cada competencia y gráfico de líneas con la evolución de los precios" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="XEwDiKF5mE0LJLEEQ2nE-48" vertex="1">
-          <mxGeometry x="26" y="290" width="304" height="220" as="geometry" />
+          <mxGeometry x="26" y="260" width="304" height="220" as="geometry" />
         </mxCell>
         <mxCell id="lOJoy-RG1V7205ybiRW1-43" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://user-images.githubusercontent.com/1915268/67271712-b77c4a00-f4d8-11e9-85d1-ea6875a06903.png;" parent="XEwDiKF5mE0LJLEEQ2nE-2" vertex="1">
           <mxGeometry x="500" width="80" height="80" as="geometry" />
@@ -79,7 +86,7 @@
         <mxCell id="XEwDiKF5mE0LJLEEQ2nE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endSize=16;startArrow=classic;startFill=1;startSize=16;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="XEwDiKF5mE0LJLEEQ2nE-4" target="XEwDiKF5mE0LJLEEQ2nE-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="-575" />
+              <mxPoint x="540" y="-540" />
               <mxPoint x="540" y="-845" />
               <mxPoint x="420" y="-845" />
             </Array>
