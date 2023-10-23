@@ -45,7 +45,7 @@ Por último, el cliente, en el momento que lo desee, podrá consultar los produc
 ![Ver imagen de reporte de tabla](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/salida_tabla.png)
 
 - Si desea una visión histórica de los precios, al entrar en cada uno de los productos, verá una página con los precios actuales, tanto de su tienda como de la competencia junto con un gráfico de líneas con el valor del precio de la competencia a lo largo del tiempo.
-![Ver imagen de reporte detallado](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/salida_tabla.png)
+![Ver imagen de reporte detallado](https://github.com/alextaboada/Keepcoding-BigDataArchitecture/blob/main/salida_detalle.png)
 
 ## Esquema DAaas
 
